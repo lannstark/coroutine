@@ -20,6 +20,6 @@ suspend fun newRoutine() {
   printWithThread("${num1 + num2}")
 }
 
-fun printWithThread(str: Any) {
+fun printWithThread(str: Any?) {
   println("[${Thread.currentThread().name}] $str")
 }
