@@ -16,19 +16,6 @@ fun main(): Unit = runBlocking {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 fun lec05Example5(): Unit = runBlocking {
   val job = launch {
     try {
